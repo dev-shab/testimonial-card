@@ -1,4 +1,5 @@
 import React from "react";
+import profileThumbnail from "./assets/profile-thumbnail.png";
 
 const App = () => {
   return (
@@ -6,7 +7,7 @@ const App = () => {
       <div className="mt-[200px] w-[340px] bg-white rounded-lg p-[24px] border-2	border-neutral-200 flex flex-col gap-[16px] shadow-2xs">
         <div className="flex gap-[16px]">
           <img
-            src="src/assets/profile-thumbnail.png"
+            src={profileThumbnail}
             alt="Sarah Dole"
             className="h-[48px] w-[48px]"
           ></img>
